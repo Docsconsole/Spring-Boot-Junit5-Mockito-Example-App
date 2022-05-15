@@ -1,0 +1,179 @@
+{
+	"info": {
+		"_postman_id": "f8cd406f-2a6f-474f-9e6c-8d8d65abc28c",
+		"name": "Spring-Boot-Junit5-Mockito-Example-App",
+		"description": "Spring-Boot-Junit5-Mockito-Example-App",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "curd-app/api/products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/curd-app/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"curd-app",
+						"api",
+						"products"
+					]
+				},
+				"description": "GetAllProducts"
+			},
+			"response": []
+		},
+		{
+			"name": "curd-app/api/products",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productName\": \"Wahsing Machine\",\r\n     \"productVendorName\": \"Whirlpool\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/curd-app/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"curd-app",
+						"api",
+						"products"
+					]
+				},
+				"description": "GetAllProducts"
+			},
+			"response": []
+		},
+		{
+			"name": "curd-app/api/products",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\": 4,\r\n    \"productName\": \"Wahsing Machine4 patch\",\r\n    \"productVendorName\": \"Whirlpool4\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/curd-app/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"curd-app",
+						"api",
+						"products"
+					]
+				},
+				"description": "GetAllProducts"
+			},
+			"response": []
+		},
+		{
+			"name": "curd-app/api/products",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\": 4,\r\n    \"productName\": \"Wahsing Machine4\",\r\n    \"productVendorName\": \"Whirlpool4\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/curd-app/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"curd-app",
+						"api",
+						"products"
+					]
+				},
+				"description": "GetAllProducts"
+			},
+			"response": []
+		},
+		{
+			"name": "curd-app/api/products",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"productId\": 4,\r\n    \"productName\": \"Wahsing Machine4 patch\",\r\n    \"productVendorName\": \"Whirlpool4\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/curd-app/api/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"curd-app",
+						"api",
+						"products"
+					]
+				},
+				"description": "GetAllProducts"
+			},
+			"response": []
+		},
+		{
+			"name": "curd-app/api/testweb",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/curd-app/api/testWeb",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"curd-app",
+						"api",
+						"testWeb"
+					]
+				},
+				"description": "GetAllProducts"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
