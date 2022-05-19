@@ -86,11 +86,11 @@ public class SpringBootJunit5MockitoExampleAppTests3 {
                         .contentType(MediaType.APPLICATION_JSON).content(requestJson))
                 .andDo(print())
                 .andExpect(status().isOk());
-
-
     }
 
-
 }
+
+
+
 
 
